@@ -42,8 +42,24 @@ p {
 ----- FIRST SECTION------
 =======================*/
 
+.navbar {
+position:fixed;
+z-index:999;
+width: 100%;
+background: rgb(255,255,255,0.8);
+/* 
+display: flex;
+justify-content: space-between;
+ */
+}
+
+.NavBarFont {
+font-size: 2rem;
+}
+
 .first-section {
-	background-image: url(../img/first-section-bg.png);
+	/* background-image: url(../img/first-section-bg.png); */
+background-color: #20518C;
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -65,7 +81,7 @@ p {
 .first-section .text-content .line-dec {
 	width: 60px;
 	height: 3px;
-	background-color: #fff;
+	background-color:  ;
 	margin: 25px 0px 25px auto;
 }
 
@@ -101,7 +117,19 @@ p {
 	margin-bottom: 15px;
 }
 
+.icon-img {
+	height: 9rem;
+}
 
+/* 
+.fa-laptop {
+	font-size: 7rem;
+}
+
+.fa-phone-square {
+	font-size: 7rem;
+}
+ */
 /* ======================
 ----- THIRD SECTION------
 =======================*/
