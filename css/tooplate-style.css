@@ -57,6 +57,12 @@ justify-content: space-between;
 font-size: 2rem;
 }
 
+/* 
+#first-header{
+  height: 50vh;
+};
+ */
+
 .first-section {
 	/* background-image: url(../img/first-section-bg.png); */
 background-color: #20518C;
@@ -64,6 +70,8 @@ background-color: #20518C;
 	width: 100%;
 	background-repeat: no-repeat;
 	padding: 20% 0px 20% 0px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 100%);
 }
 
 .first-section .text-content {
@@ -666,10 +674,14 @@ footer a:hover {
 
 	.first-gallery-section {
 		padding: 10% 0px 40% 0px;
+
 	}
 
 	.first-section {
 		padding: 150px 0px 200px 0px;
+	clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+
+
 	}
 
 	.first-section .text-content {
